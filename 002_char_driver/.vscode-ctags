@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/leyouhong/Desktop/workspace/char_driver/002_char_driver/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ARCH	Makefile	/^ARCH=arm$/;"	m
+CROSS_COMPILE	Makefile	/^CROSS_COMPILE=arm-linux-gnueabihf-$/;"	m
+DEV_MEM_SIZE	main.c	/^#define DEV_MEM_SIZE /;"	d	file:
+HOST_LEO_DIR	Makefile	/^HOST_LEO_DIR =\/lib\/modules\/$(shell uname -r)\/build$/;"	m
+LEO_DIR	Makefile	/^LEO_DIR=\/home\/leyouhong\/workspace\/ldd\/source\/linux_bbb_4.14\/$/;"	m
+all	Makefile	/^all:$/;"	t
+clean	Makefile	/^clean:$/;"	t
+device_buffer	main.c	/^char device_buffer[DEV_MEM_SIZE];$/;"	v	typeref:typename:char[]
+device_number	main.c	/^dev_t device_number;$/;"	v	typeref:typename:dev_t
+help	Makefile	/^help:$/;"	t
+host	Makefile	/^host:$/;"	t
+hostclean	Makefile	/^hostclean:$/;"	t
+obj-m	Makefile	/^obj-m := main.o$/;"	m
+pcd_driver_cleanup	main.c	/^static void __exit pcd_driver_cleanup(void)$/;"	f	typeref:typename:void __exit	file:
+pcd_driver_init	main.c	/^static int __init pcd_driver_init(void)$/;"	f	typeref:typename:int __init	file:
