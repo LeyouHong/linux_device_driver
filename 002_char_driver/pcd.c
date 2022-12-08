@@ -122,6 +122,7 @@ struct file_operations pcd_fops = {
     .write = pcd_write,
     .read = pcd_read,
     .release = pcd_release,
+    .llseek = pcd_lseek,
     .owner = THIS_MODULE,
 };
 
